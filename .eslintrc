@@ -1,5 +1,5 @@
 {
-  "extends": ["airbnb", "react-app", "plugin:prettier/recommended"],
+  "extends": ["react-app", "plugin:prettier/recommended"],
   "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersion": 2016,
@@ -15,5 +15,22 @@
   },
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    // "jsx-a11y/label-has-for": [
+    //   2,
+    //   {
+    //     "required": {
+    //       "every": ["id"]
+    //     }
+    //   }
+    // ],
+    // "jsx-a11y/label-has-associated-control": [
+    //   2,
+    //   {
+    //     "labelComponents": ["CustomInputLabel"],
+    //     "labelAttributes": ["label"],
+    //     "controlComponents": ["CustomInput"],
+    //     "depth": 3
+    //   }
+    // ]
   }
 }
