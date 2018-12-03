@@ -2,6 +2,11 @@ import React from "react";
 import { Route } from "react-router-dom";
 import HomePage from "./components/pages/HomePage";
 import LoginPage from "./components/pages/LoginPage";
+//import asyncComponent from "./utils/asyncRoute";
+
+// const LoginPage = asyncComponent(() =>
+//   import("./components/pages/LoginPage").then(module => module.default)
+// );
 
 const App = () => (
   <div className="ui container">
