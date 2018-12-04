@@ -15,10 +15,7 @@ export const login = credentials => dispatch => {
 };
 
 export const logout = () => dispatch => {
+  //add server communication
   localStorage.removeItem("appJWT");
   dispatch(userLoggedOut());
-  // return api.user.login(credentials).then(user => {
-  //   localStorage.appJWT = user.token;
-  //   dispatch(userLoggedIn(user));
-  // });
 };
